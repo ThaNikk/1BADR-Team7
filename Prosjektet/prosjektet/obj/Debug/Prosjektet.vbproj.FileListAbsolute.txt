@@ -1,0 +1,20 @@
+c:\users\vegard\documents\visual studio 2015\Projects\Prosjektet\Prosjektet\bin\Debug\Prosjektet.exe.config
+c:\users\vegard\documents\visual studio 2015\Projects\Prosjektet\Prosjektet\obj\Debug\Prosjektet.vbprojResolveAssemblyReference.cache
+c:\users\vegard\documents\visual studio 2015\Projects\Prosjektet\Prosjektet\obj\Debug\Prosjektet.Form1.resources
+c:\users\vegard\documents\visual studio 2015\Projects\Prosjektet\Prosjektet\obj\Debug\Prosjektet.Resources.resources
+c:\users\vegard\documents\visual studio 2015\Projects\Prosjektet\Prosjektet\obj\Debug\Prosjektet.vbproj.GenerateResource.Cache
+c:\users\vegard\documents\visual studio 2015\Projects\Prosjektet\Prosjektet\bin\Debug\Prosjektet.exe
+c:\users\vegard\documents\visual studio 2015\Projects\Prosjektet\Prosjektet\bin\Debug\Prosjektet.pdb
+c:\users\vegard\documents\visual studio 2015\Projects\Prosjektet\Prosjektet\bin\Debug\Prosjektet.xml
+c:\users\vegard\documents\visual studio 2015\Projects\Prosjektet\Prosjektet\obj\Debug\Prosjektet.exe
+c:\users\vegard\documents\visual studio 2015\Projects\Prosjektet\Prosjektet\obj\Debug\Prosjektet.xml
+c:\users\vegard\documents\visual studio 2015\Projects\Prosjektet\Prosjektet\obj\Debug\Prosjektet.pdb
+c:\users\vegard\documents\visual studio 2015\Projects\Prosjektet\Prosjektet\bin\Debug\MySql.Data.dll
+c:\users\vegard\documents\visual studio 2015\Projects\Prosjektet\Prosjektet\obj\Debug\Prosjektet.SaleScreen.resources
+c:\users\vegard\documents\visual studio 2015\Projects\Prosjektet\Prosjektet\obj\Debug\Prosjektet.Form3.resources
+c:\users\vegard\documents\visual studio 2015\Projects\Prosjektet\Prosjektet\obj\Debug\Prosjektet.Form2.resources
+C:\Users\vegard\Documents\Visual Studio 2015\Projects\Prosjektet\Prosjektet\obj\Debug\Prosjektet.Statistikk.resources
+C:\Users\Magnus\Desktop\Prosjektet\bin\Debug\Prosjektet.exe.config
+C:\Users\Magnus\Desktop\Prosjektet\obj\Debug\Prosjektet.exe
+C:\Users\Magnus\Desktop\Prosjektet\obj\Debug\Prosjektet.xml
+C:\Users\Magnus\Desktop\Prosjektet\obj\Debug\Prosjektet.pdb
