@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form2
+Partial Class Bestillingskjema
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -105,7 +105,7 @@ Partial Class Form2
         Me.cbBestilling.Size = New System.Drawing.Size(100, 21)
         Me.cbBestilling.TabIndex = 8
         '
-        'Form2
+        'Bestillingskjema
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -118,7 +118,7 @@ Partial Class Form2
         Me.Controls.Add(Me.RadioButton1)
         Me.Controls.Add(Me.btnRegistrerVare)
         Me.Controls.Add(Me.ListBox1)
-        Me.Name = "Form2"
+        Me.Name = "Bestillingskjema"
         Me.Text = "Bestilling"
         CType(Me.teller, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

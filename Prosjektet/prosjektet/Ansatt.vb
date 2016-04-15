@@ -9,9 +9,11 @@
     End Sub
 
     'ByVal ansattnummer As Integer
-    Public Sub New(ByVal fornavn As String, ByVal etternavn As String, ByVal telefon As String, ByVal epost As String, ByVal postnr As String)
+    Public Sub New(ByVal fornavn As String, ByVal etternavn As String, ByVal telefon As String, ByVal epost As String, ByVal postnr As String, ByVal lonn As String, ByVal ansattID As String)
         MyBase.New(fornavn, etternavn, telefon, epost, postnr)
         'Me.ansattnummer = ansattnummer
+        Me.lonn = lonn
+        Me.ansattID = ansattID
     End Sub
 
     'Registrer kunde
@@ -36,7 +38,7 @@
 
     'Henter alle ansatte
     Public Function getAlleAnsatte()
-        Return db.Query("SELECT * FROM personer, ansatt WHERE personer.personID = ansatt.personID")
+        Return db.Query("SELECT * FROM Ansatt")
     End Function
 
     'Slett ansatt
@@ -44,11 +46,11 @@
         db.Query("DELETE FROM ansatt WHERE personID  = '" & personID & "'")
     End Sub
 
-    Public Function getBruker()
-        Return db.Query("SELECT bruker from ansatt")
+    Public Function getBruker(ByVal a_nr As String)
+        Return db.Query("SELECT Brukernavn from Ansatt WHERE p_id ='" & a_nr & "'")
     End Function
-    Public Function getPassord()
-        Return db.Query("SELECT passord from ansatt WHERE passord.ansattID = bruker.ansattID")
+    Public Function getPassord(ByVal a_nr As String)
+        Return db.Query("SELECT Passord from Ansatt = '" & a_nr & "'")
     End Function
 
     Public Function getAvdeling()

@@ -3,10 +3,10 @@
 Public Class Database
 
     Private connectionOK As Boolean = True
-    Private connString As String = "Server=mysql.stud.iie.ntnu.no;" _
+    Private connString As String = "Server=mysql.stud.aitel.hist.no;" _
                                         & "Database=vegalie;" _
                                         & "Uid=vegalie;" _
-                                        & "Pwd=4hwONmGQ;"
+                                        & "Pwd=12345;"
 
     Private tilkobling As New MySqlConnection
 

@@ -1,4 +1,4 @@
-﻿Public Class Form2
+﻿Public Class Bestillingskjema
     Dim bestilling As New Bestilling()
     Dim ordre As New Ordre()
 

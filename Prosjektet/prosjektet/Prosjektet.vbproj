@@ -76,53 +76,48 @@
     <Compile Include="Ansatt.vb" />
     <Compile Include="Bestilling.vb" />
     <Compile Include="Database.vb" />
-    <Compile Include="Form1.vb">
+    <Compile Include="Lagermedarbeider.vb" />
+    <Compile Include="Login.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.designer.vb">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <Compile Include="Bestillingskjema.designer.vb">
+      <DependentUpon>Bestillingskjema.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form2.vb">
+    <Compile Include="Bestillingskjema.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.designer.vb">
-      <DependentUpon>Form3.vb</DependentUpon>
+    <Compile Include="RegistrereKunde.designer.vb">
+      <DependentUpon>RegistrereKunde.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form3.vb">
+    <Compile Include="RegistrereKunde.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.designer.vb">
-      <DependentUpon>Form4.vb</DependentUpon>
+    <Compile Include="SøkOrdre.designer.vb">
+      <DependentUpon>SøkOrdre.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form4.vb">
+    <Compile Include="SøkOrdre.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form5.designer.vb">
-      <DependentUpon>Form5.vb</DependentUpon>
+    <Compile Include="SøkAnsatte.designer.vb">
+      <DependentUpon>SøkAnsatte.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form5.vb">
+    <Compile Include="SøkAnsatte.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form6.designer.vb">
-      <DependentUpon>Form6.vb</DependentUpon>
+    <Compile Include="SøkLager.designer.vb">
+      <DependentUpon>SøkLager.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form6.vb">
+    <Compile Include="SøkLager.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form7.designer.vb">
-      <DependentUpon>Form7.vb</DependentUpon>
+    <Compile Include="SøkStatistikk.designer.vb">
+      <DependentUpon>SøkStatistikk.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form7.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form8.designer.vb">
-      <DependentUpon>Form8.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form8.vb">
+    <Compile Include="SøkStatistikk.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Kunde.vb" />
@@ -155,16 +150,17 @@
     <Compile Include="Statistikk.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Vare.vb" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <EmbeddedResource Include="Bestillingskjema.resx">
+      <DependentUpon>Bestillingskjema.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.vb</DependentUpon>
+    <EmbeddedResource Include="RegistrereKunde.resx">
+      <DependentUpon>RegistrereKunde.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

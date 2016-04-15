@@ -1,4 +1,4 @@
-﻿Public Class Form3
+﻿Public Class RegistrereKunde
 
     'Bekreft registrering av kunde
     Private Sub btnRegKundeBekreft_Click(sender As Object, e As EventArgs) Handles btnRegKundeBekreft.Click
